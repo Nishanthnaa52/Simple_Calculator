@@ -87,3 +87,30 @@ button:active {
         font-size: 30px;
     }
 }
+
+
+/*----------------------------------*/
+
+@media (max-width: 580px){
+    body {
+        margin-top: 150px;
+    }
+
+    button {
+        width: 80px;
+        height: 80px;
+        font-size: 25px;
+    }
+
+    .displayNumbers {
+        height: 40px;
+        font-size: 30px;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+    .creator {
+        font-size: 20px;
+    }
+}
