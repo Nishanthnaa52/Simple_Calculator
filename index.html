@@ -35,7 +35,12 @@
         <button onclick = "calculation += '/';cap();">/</button>
       </p>
 
-      <button onclick = "calculation = '';document.querySelector('.displayNumbers').innerHTML = '';">Clear</button>
+      <p>
+        <button onclick = "calculation = '';document.querySelector('.displayNumbers').innerHTML = '';">Cls</button>
+        <button onclick = "calculation += '<';cap();"><</button>
+        <button onclick = "calculation += '>';cap();">></button>
+        <button onclick = "del();">Bac</button>
+      </p>
     </div>
 
     <p class="creator">Created by Nishanth</p>
